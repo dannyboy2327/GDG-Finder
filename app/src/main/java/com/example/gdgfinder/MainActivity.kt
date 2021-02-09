@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         // first find the nav controller
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navController = navHostFragment.navController
-        
+
         // then setup the action bar, tell it about the DrawerLayout
         setupActionBarWithNavController(navController, binding.drawerLayout)
 
