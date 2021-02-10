@@ -38,10 +38,10 @@
 
                 <TextView
                     android:id="@+id/title"
-                    style="@style/TextAppearance.Title"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
+                    android:textAppearance="?attr/textAppearanceHeadline5"
                     android:text="@string/about_google_developer_groups"
                     app:layout_constraintEnd_toStartOf="@+id/end_grid"
                     app:layout_constraintStart_toStartOf="@+id/start_grid"
@@ -59,9 +59,9 @@
 
                 <TextView
                     android:id="@+id/subtitle"
-                    style="@style/TextAppearance.Title.Subtitle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
                     android:layout_marginTop="13dp"
                     android:text="@string/gdgs_are"
                     app:layout_constraintEnd_toStartOf="@id/end_grid"
